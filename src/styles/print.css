@@ -1,0 +1,50 @@
+/*
+ * @Author: Drinkee 
+ * @Date: 2020-02-07 17:39:35 
+ * @Last Modified by: Drinkee
+ * @Last Modified time: 2020-03-31 13:23:46
+ */
+
+ @media print {
+   html,
+   body {
+     background: #fff;
+   }
+   .resume-page {
+     margin: 0 !important;
+   }
+   .resume-aside {
+     position: relative;
+     height: 2970px;
+   }
+   #pdf-button {
+     display: none;
+   }
+   .more {
+    margin-top: 30px;
+     /* display: flex; */
+   }
+   .more .more-text,
+   .more .more-icon {
+     /* display: block !important; */
+   }
+   .comp-progress-bar {
+     height: 10px !important;
+     margin-bottom: 5px;
+    }
+    #evalution{
+      /* position: absolute;
+      top:1515.0755px;
+      left: 40px;
+      right: 40px; */
+      /* padding-top: 260px; */
+    }
+    #second-page-title {
+      display: block !important;
+      /* padding-top: 110px; */
+    }
+ }
+
+ @page {
+   size: A4;
+ }

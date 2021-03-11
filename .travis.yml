@@ -1,0 +1,32 @@
+language: nodejs
+
+nodejs:
+  - "10.16.1"
+
+cache:
+  directories:
+  - node_modules # 缓存npm包 
+
+before_script: 
+  - npm install
+  
+script:
+  - npm run build
+
+after_script:
+  - cd ./dist
+  - git init
+  - git config user.name "wangliang1026"
+  - git config user.email "460173373@qq.com"
+  - git add .
+  - git commit -m "auto deploy"
+  - git push --force --quiet "https://${resume_token}@${GH_REF}" master:gh-pages
+
+
+branches:
+  only:
+    - master # 触发集成分支
+
+env:
+  global:
+    - GH_REF: github.com/wangliang1026/resume.git

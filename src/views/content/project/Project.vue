@@ -129,7 +129,7 @@ export default {
           title: '采云团购',
           role: '前端开发、后端开发',
           time: {
-            start: '2020.4',
+            start: '2019.10',
             end: '至今',
           },
           techs: ['VueJs', 'Vuex', 'ElementUI', 'axios', 'VantUI', 'Asp.Net Core', 'Abp vNext'],
@@ -150,8 +150,8 @@ export default {
         {
           title: '方特旅游WebApp',
           time: {
-            start: '2017.8',
-            end: '2018.9',
+            start: '2018.10',
+            end: '2019.4',
           },
           role: '前端开发、后端开发',
           techs: ['MVC', 'JQuery', 'Asp.Net Core'],
@@ -168,8 +168,8 @@ export default {
         {
           title: '方特集市小程序',
           time: {
-            start: '2018.1',
-            end: '2018.7',
+            start: '2018.7',
+            end: '2018.10',
           },
           role: '小程序开发、后台开发、接口开发',
           techs: ['Wechat Mini Program', 'VueJs', 'ElementUI', 'axios', 'Asp.Net Core', 'Abp'],
@@ -188,8 +188,8 @@ export default {
         {
           title: '方特图库',
           time: {
-            start: '2018.1',
-            end: '2018.7',
+            start: '2019.6',
+            end: '2019.8',
           },
           role: '前端开发、接口开发',
           techs: ['VueJs', 'iViewUI', 'axios', 'Asp.Net Core', 'Abp vNext'],
@@ -206,8 +206,8 @@ export default {
         {
           title: '方特酒店预订系统',
           time: {
-            start: '2018.1',
-            end: '2018.7',
+            start: '2018.10',
+            end: '2019.3',
           },
           role: '后端开发',
           techs: ['VueJs', 'ElementUI', 'axios', 'Asp.Net Core', 'Abp'],
@@ -227,8 +227,8 @@ export default {
           company: '重庆杰特科技发展有限公司 - 项目',
           title: '旺点美容美发管理软件',
           time: {
-            start: '2018.11',
-            end: '2020.2',
+            start: '2017.11',
+            end: '2015.5',
           },
           role: '维护迭代',
           techs: ['.Net', 'Winform'],
@@ -246,8 +246,8 @@ export default {
           title: '旺点手机收银',
           role: '前端开发',
           time: {
-            start: '2019.5',
-            end: '2020.1',
+            start: '2017.11',
+            end: '2018.5',
           },
           tags: ['Hybrid App'],
           techs: ['.Net', 'Mvc', 'Hybrid'],

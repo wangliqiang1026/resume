@@ -36,8 +36,8 @@
         theme="dark"
       >
         <div class="text-center">
-          <p>西南大学（非统招）</p>
-          <p>2011.9 - 2015.7</p>
+          <p>西南大学</p>
+          <p>2011.9 - 2015.6</p>
           <p>计算机及应用 - 本科</p>
         </div>
       </block-wrapper>
